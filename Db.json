@@ -1,0 +1,236 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "admin123",
+            "role": "admin"
+        },
+        {
+            "username": "tester1",
+            "password": "test321",
+            "role": "tester"
+        },
+        {
+            "username": "tester2",
+            "password": "test123",
+            "role": "tester"
+        },
+        {
+            "username": "manager",
+            "password": "manager123",
+            "role": "manager"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "name": "mobile",
+            "category": "Electronics",
+            "price": 55000,
+            "stock": 12
+        },
+        {
+            "id": 2,
+            "name": "Mouse",
+            "category": "Electronics",
+            "price": 500,
+            "stock": 150
+        },
+        {
+            "id": 3,
+            "name": "Keyboard",
+            "category": "Electronics",
+            "price": 1200,
+            "stock": 85
+        },
+        {
+            "id": 4,
+            "name": "Monitor",
+            "category": "Electronics",
+            "price": 12000,
+            "stock": 40
+        },
+        {
+            "id": 5,
+            "name": "Printer",
+            "category": "Electronics",
+            "price": 9000,
+            "stock": 18
+        },
+        {
+            "id": 6,
+            "name": "Office Chair",
+            "category": "Furniture",
+            "price": 7500,
+            "stock": 30
+        },
+        {
+            "id": 7,
+            "name": "Office Desk",
+            "category": "Furniture",
+            "price": 15000,
+            "stock": 20
+        },
+        {
+            "id": 8,
+            "name": "Bookshelf",
+            "category": "Furniture",
+            "price": 6500,
+            "stock": 25
+        },
+        {
+            "id": 9,
+            "name": "Filing Cabinet",
+            "category": "Furniture",
+            "price": 8200,
+            "stock": 15
+        },
+        {
+            "id": 10,
+            "name": "Whiteboard",
+            "category": "Furniture",
+            "price": 3200,
+            "stock": 45
+        },
+        {
+            "id": 11,
+            "name": "Pen Pack",
+            "category": "Stationery",
+            "price": 200,
+            "stock": 500
+        },
+        {
+            "id": 12,
+            "name": "Notebook",
+            "category": "Stationery",
+            "price": 120,
+            "stock": 600
+        },
+        {
+            "id": 13,
+            "name": "Marker",
+            "category": "Stationery",
+            "price": 80,
+            "stock": 300
+        },
+        {
+            "id": 14,
+            "name": "Stapler",
+            "category": "Stationery",
+            "price": 350,
+            "stock": 120
+        },
+        {
+            "id": 15,
+            "name": "Highlighter",
+            "category": "Stationery",
+            "price": 90,
+            "stock": 250
+        },
+        {
+            "id": 16,
+            "name": "Water Bottle",
+            "category": "Accessories",
+            "price": 600,
+            "stock": 140
+        },
+        {
+            "id": 17,
+            "name": "Backpack",
+            "category": "Accessories",
+            "price": 1800,
+            "stock": 60
+        },
+        {
+            "id": 18,
+            "name": "Laptop Sleeve",
+            "category": "Accessories",
+            "price": 900,
+            "stock": 90
+        },
+        {
+            "id": 19,
+            "name": "USB Hub",
+            "category": "Accessories",
+            "price": 1100,
+            "stock": 75
+        },
+        {
+            "id": 20,
+            "name": "Power Bank",
+            "category": "Accessories",
+            "price": 2200,
+            "stock": 55
+        },
+        {
+            "id": 21,
+            "name": "Router",
+            "category": "Networking",
+            "price": 3500,
+            "stock": 40
+        },
+        {
+            "id": 22,
+            "name": "LAN Cable",
+            "category": "Networking",
+            "price": 250,
+            "stock": 300
+        },
+        {
+            "id": 23,
+            "name": "Switch",
+            "category": "Networking",
+            "price": 4500,
+            "stock": 25
+        },
+        {
+            "id": 24,
+            "name": "WiFi Extender",
+            "category": "Networking",
+            "price": 2800,
+            "stock": 35
+        },
+        {
+            "id": 25,
+            "name": "Firewall Appliance",
+            "category": "Networking",
+            "price": 55000,
+            "stock": 5
+        },
+        {
+            "id": 26,
+            "name": "Smartphone",
+            "category": "Electronics",
+            "price": 32000,
+            "stock": 50
+        },
+        {
+            "id": 27,
+            "name": "Tablet",
+            "category": "Electronics",
+            "price": 28000,
+            "stock": 30
+        },
+        {
+            "id": 28,
+            "name": "Smartwatch",
+            "category": "Electronics",
+            "price": 14000,
+            "stock": 65
+        },
+        {
+            "id": 29,
+            "name": "Earbuds",
+            "category": "Electronics",
+            "price": 3500,
+            "stock": 110
+        },
+        {
+            "id": 30,
+            "name": "Bluetooth Speaker",
+            "category": "Electronics",
+            "price": 5000,
+            "stock": 70
+        }
+    ]
+}
