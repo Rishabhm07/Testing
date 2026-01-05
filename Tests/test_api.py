@@ -69,7 +69,7 @@ def test_create_item(client):
 def test_get_items(client):
     token = login(client)
 
-    client.post(
+    response = client.post(
         "/items",
         headers={"Authorization": f"Bearer {token}"},
         json={"name": "Mouse", "price": 500}
@@ -87,7 +87,7 @@ def test_get_items(client):
 def test_update_item(client):
     token = login(client)
 
-    client.post(
+    response = client.post(
         "/items",
         headers={"Authorization": f"Bearer {token}"},
         json={"name": "Keyboard", "price": 1200}
@@ -106,7 +106,7 @@ def test_update_item(client):
 def test_delete_item(client):
     token = login(client)
 
-    client.post(
+    response = client.post(
         "/items",
         headers={"Authorization": f"Bearer {token}"},
         json={"name": "Monitor", "price": 12000}
