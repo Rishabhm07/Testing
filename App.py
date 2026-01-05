@@ -4,6 +4,13 @@ import uuid
 from functools import wraps
 import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_FILE = os.path.join(BASE_DIR, "db.json")
+
+def read_db():
+    with open(DB_FILE, "r") as f:
+        return json.load(f)
+
 
 app = Flask(__name__)
 
@@ -53,6 +60,7 @@ def login():
 
 
 # ---------- CREATE ----------
+
 @app.route("/items", methods=["POST"])
 @token_required
 def create_item():
