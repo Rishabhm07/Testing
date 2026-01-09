@@ -22,12 +22,12 @@
         }
     ],
     "items": [
-        {
+          {
             "id": 1,
-            "name": "mobile",
+            "name": "Charger",
             "category": "Electronics",
-            "price": 55000,
-            "stock": 12
+            "price": 500,
+            "stock": 150
         },
         {
             "id": 2,
@@ -38,9 +38,9 @@
         },
         {
             "id": 3,
-            "name": "Keyboard",
+            "name": "Laptop",
             "category": "Electronics",
-            "price": 1200,
+            "price": 120000,
             "stock": 85
         },
         {
@@ -231,6 +231,20 @@
             "category": "Electronics",
             "price": 5000,
             "stock": 70
+        },
+        {
+            "id": 30,
+            "name": "Mouse",
+            "category": "Electronics",
+            "price": 500,
+            "stock": 150
+        },
+        {
+            "id": 31,
+            "name": "Mouse",
+            "category": "Electronics",
+            "price": 500,
+            "stock": 150
         }
     ]
 }
